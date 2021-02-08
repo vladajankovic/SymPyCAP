@@ -643,7 +643,7 @@ def runcap(n,Phasor=False,LatexOutput=False):
             
             
     temp = sympy.nonlinsolve(eq1,exp1)
-    print(eq1)
+    print("Equations:",eq1)
     
     if not temp:
         print("No solution")
