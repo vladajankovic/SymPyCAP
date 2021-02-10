@@ -690,3 +690,5 @@ def runcap(n,Phasor=False,LatexOutput=False):
             
         sl.on_changed(update)
         plt.show()
+        
+    return temp
